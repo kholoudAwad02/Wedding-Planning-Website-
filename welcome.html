@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wedding Planning Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 130%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+
+
+        h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 40px;
+            margin: 0;
+            color: #000000; /* Change to your desired color */
+            margin-left: 20px;
+        }
+        h2 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 30px;
+            margin: 0;
+            color: #000000; /* Change to your desired color */
+            margin-left: 0px;
+        }
+
+        main {
+            margin: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section {
+            margin-bottom: 100px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 0 0 20px;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .btn {
+            background-color: rgb(0, 0, 0); /* light pink */
+            border: none;
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 30px;
+            margin: 20px;
+            cursor: pointer;
+            border-radius: 40px;
+            transition: background-color 0.3s ease;
+            font-family: 'Great Vibes', cursive;
+            
+        }
+
+        .btn:hover {
+    opacity: 0.7; /* Change the value to adjust the level of transparency */
+}
+
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video autoplay muted loop id="video-background">
+        <source src="./imgs/video4.mp4" type="video/mp4">
+    </video>
+    <header>
+        <div style="display: flex; align-items: center;">
+            <img src="./imgs/lbj.png" style="width: 100px; height: 100px; border-radius:100%;" alt="Wedding photo">
+            <h2 style="font-family: 'Great Vibes', cursive; margin-left: 5px;">La Belle journee</h2>
+        </div>
+    </header>
+    
+    
+    <main>
+        <section>
+            <h1>Welcome to Our Wedding Planning Website</h1>
+            <p>Let us help you plan your perfect Wedding</p>
+        </section>
+        <section>
+            <div class="btn-container">
+                <a href="login.html" class="btn" style="font-family: 'Great Vibes', cursive;">Log In</a> 
+                <a href="signup.html" class="btn"style="font-family: 'Great Vibes', cursive;">SignUp</a> 

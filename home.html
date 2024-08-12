@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Love Light">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<section class="header">
+
+  <header>
+        <div style="display: flex; align-items: center;">
+            <img src="./imgs/lbj.png" style="width: 100px; height: 100px; border-radius:100%;" alt="Wedding photo">
+            <a href="home.html" class="logo">La Belle journee</a>
+        </div>
+    </header>
+
+   <nav class="navbar">
+      <a href="home.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="hotels.html">PACKAGES</a>
+      <a href="Fav.html">FAVORITES</a>
+      <a href="welcome.html">LOGOUT</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+<body>
+   
+<div class="container">
+
+<?html @include 'header.html'; ?>
+
+<section class="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style=> 
+            
+                <video autoplay muted loop id="video-background">
+                  <source src="./imgs/videooo.mp4" type="video/mp4">
+                </video>
+
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+<section class="services">
+
+   <h1 class="heading">our services</h1>
+
+   <div class="swiper service-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <img src="https://imagesawe.s3.amazonaws.com/listing/2019/03/14/intercontinental-cairo.jpg" alt="">
+            <div class="content">
+               <h3>Hotels Packages</h3>
+               <p>Helps you choose a hotel for your wedding</p>
+               <a href="hotels.html" class="btn">View</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/service-2.jpg" alt="">
+            <div class="content">
+               <h3>Gallery</h3>
+               <p>some photes</p>
+               <a href="gallery.html" class="btn">View</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="https://t4.ftcdn.net/jpg/02/80/82/81/240_F_280828158_ZZ2W8atYMHiSkLoDzxgDHNhdmXJ31jCR.jpg" alt="">
+            <div class="content">
+               <h3>Honeymoon </h3>
+               <p>Helps you choose a country for your honeymoon</p>
+               <a href="Travel.html" class="btn">view</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/luscious-fall-wedding-bouquet-1561657153.jpg?resize=480:*" alt="">
+            <div class="content">
+               <h3>Your Day</h3>
+               <p>Helps you choose a fashion designers and makeup artists</p>
+
+               <a href="yourday.html" class="btn">view</a>
+            </div>
+         </div>
+
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+   
+
+</section>
+
+<?html @include 'footer.html'; ?>
+
+</div>
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>Extra links</h3>
+         <a href="home.html"> <i class="fas fa-angle-right"></i> plan wedding</a>
+         <a href="hotels.html"> <i class="fas fa-angle-right"></i> our services</a>
+         <a href="about.html"> <i class="fas fa-angle-right"></i> About</a>
+      </div>
+
+      <div class="box">
+         <h3>Contact info</h3>
+         <a href="tel:+01211548009"> <i class="fas fa-phone"></i> +01211548009 </a>
+         <a href="tel:+1112223333"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+      </div>
+
+      <div class="box">
+         <h3>Follow us</h3>
+         <a href="https://www.facebook.com/kholoud.awad.7"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="https://www.instagram.com/khol0ud_ahmed_/"> <i class="fab fa-instagram"></i> instagram </a> 
+      </div>
+
+   </div>
+
+   
+
+</section>
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

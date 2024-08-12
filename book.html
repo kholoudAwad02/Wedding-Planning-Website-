@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <section class="header">
+
+      <header>
+            <div style="display: flex; align-items: center;">
+                <img src="./imgs/lbj.png" style="width: 100px; height: 100px; border-radius:100%;" alt="Wedding photo">
+                <a href="home.html" class="logo">La Belle journee</a>
+            </div>
+        </header>
+    
+        <nav class="navbar">
+         <a href="home.html">HOME</a>
+         <a href="about.html">ABOUT</a>
+         <a href="gallery.html">GALLERY</a>
+         <a href="hotels.html">PACKAGES</a>
+         <a href="Fav.html">FAVORITES</a>
+         <a href="welcome.html">LOGOUT</a>
+      </nav>
+       <div id="menu-btn" class="fas fa-bars"></div>
+    
+    </section>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>contact</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Love Light">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<div class="container">
+
+<?php @include 'header.php'; ?>
+
+<section class="contact">
+
+   <h1 class="heading">BookNow</h1>
+
+   <form action="" method="post">
+
+      <div class="flex">
+
+         <div class="inputBox">
+            <span>your name</span>
+            <input type="text" placeholder="Ahmed" name="name" required>
+         </div>
+
+         <div class="inputBox">
+            <span>your email</span>
+            <input type="email" placeholder="kholoud***@gmail.com" name="email" required>
+         </div>
+
+         <div class="inputBox">
+            <span>your address</address></span>
+            <input type="address" placeholder="32*****st" name="address" required>
+         </div>
+         <div class="inputBox">
+            <span>Visa</address></span>
+            <input type="Visa number" placeholder="visa num" name="visa" required>
+         </div>
+         <div class="inputBox">
+            <span>Phone</address></span>
+            <input type="phone" placeholder="012*****" name="notes" required>
+         </div>
+
+         <div class="inputBox">
+            <span>Notes</address></span>
+            <input type="notes" placeholder="write" name="notes" required>
+         </div>
+
+      </div>
+
+      <div class="btn-container">
+         <a href="confirm.html" class="btn" style="font-family: 'Great Vibes', cursive;">Confirm</a>
+      </div> 
+
+   </form>
+
+</section>
+
+<?php @include 'footer.php'; ?>
+
+</div>
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>extra links</h3>
+         <a href="home.html"> <i class="fas fa-angle-right"></i> plan wedding</a>
+         <a href="hotels.html"> <i class="fas fa-angle-right"></i> our services</a>
+         <a href="about.html"> <i class="fas fa-angle-right"></i> About</a>
+      </div>
+
+      <div class="box">
+         <h3>contact info</h3>
+         <a href="tel:+01211548009"> <i class="fas fa-phone"></i> +01211548009 </a>
+         <a href="tel:+1112223333"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="https://www.facebook.com/kholoud.awad.7"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="https://www.instagram.com/khol0ud_ahmed_/"> <i class="fab fa-instagram"></i> instagram </a> 
+      </div>
+
+   </div>
+   
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
